@@ -7,7 +7,7 @@ package AnimalsHotel;
  * Project: IntelliJ IDEA
  */
 public interface IFood {
-    double printFood();
-    String foodsType();
+    double printFood(); // visa hur många gram mat
+    String foodsType(); // visa vilken sorts mat
 }
 
