@@ -15,7 +15,7 @@ public class Cat extends Animal implements IFood {
 
     @Override
     public double printFood() {
-        food = WeightConvert.convertToGram(getWeight()) / 100;
+        food = WeightConvert.convertToGram(getWeight()) / 150;
         return food;
     }
 
